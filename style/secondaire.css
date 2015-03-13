@@ -1,0 +1,52 @@
+#conteneurlien {
+	position:absolute;
+	top : 500px; /*début de la zonne à partir de 80 px du haut gauche*/
+	margin-top:30px;  /* épaisseur de la marge en haut */
+	left:0px;  /* position par rapport à  la gauche */
+	width: 180px;  /* largeur de l'élément */
+
+}
+
+
+#conteneurlien ul {
+
+	border-style:solid;    /* bordure pleine autour */
+        border-color :green ;  /* bordure verte */
+}
+#conteneurlien li{
+        margin:5px;
+	list-style-image:none;
+	list-style-type: square;
+
+}
+#conteneurlien a{
+	color : black ;
+        text-decoration: none;
+}
+/* mise en forme des liens quand ils sont survolés */
+#conteneurlien a:hover {
+	text-decoration: underline ;
+}
+/* mise en forme des titres de niveau 1, 2 et 3 */
+
+
+h1 {
+	color : orange ;
+}
+
+
+
+/* instructions concernant la mise en forme des images */
+/* création d'une classe encadre afin de l'encardre que les images voulues */
+.encadre {
+	border-style:solid;    /* bordure pleine autour */
+        border-color :black;  /* bordure noire */
+}
+ /* instructions concernant la mise en forme des tableaux */
+table {
+	border-style: solid;
+        border-color : white;
+        border-width : 3px;  /* bordure blanche de 3px*/
+}
+
+

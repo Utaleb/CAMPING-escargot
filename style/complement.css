@@ -1,0 +1,30 @@
+ï»¿h1 {
+  color: black;
+  }
+p {
+  text-align : justify ;
+}
+#retrait {
+	margin-left:150px;
+	margin-right:150px;
+}
+
+
+
+table.tarif {
+	margin:auto;
+}
+
+
+table.tarif , table.tarif td{
+	border-style:solid;
+	border-width:3px;
+	border-color : black ;
+	border-collapse: collapse;
+
+}
+
+
+.droite {     /*afin de faire disparaître l'image label qualité*/
+  display : none;
+}
